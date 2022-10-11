@@ -114,10 +114,29 @@ body{
     height: 50px;
 }
 
+@media screen and (max-width: 1024px) {
+    .header-main{
+        background-image: none;
+    }
+    .header-main-textos{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-grl-main{
+        flex-direction: column;
+    }
+    
+}
 
 
 
 /* SOBRE NOSOTROS */
+.bc-sn{
+    background: linear-gradient(0deg, rgba(39,86,255,0.30034716523328087) 0%, rgba(163,243,216,0.30034716523328087) 100%);
+}
 .header-sn{
     text-align: center;
 }
@@ -128,26 +147,12 @@ body{
     margin-left: 10px;
 }
 .p-sn{
-    border: 5px #8080807c;
-    background-color: #8080807c;
-    width: 500px;
     font-family:'Courier New', Courier, monospace;
-
+    margin-top: 40px;
 }
-.p1-sn{
-    margin-left: 140px;
-    margin-top: 5px;
-    padding: 30px;
-}
-.p2-sn{
-    margin-top: 70px;
-    margin-left: 60%;
-    margin-right: 5px;
-    padding: 30px;
-}
-.p3-sn{
-    margin-top: 30px;
-    padding: 30px;
+.p-sn-c{
+    background-color: #8080807c;
+    padding: 15px;
 }
 
 
@@ -159,9 +164,7 @@ body{
     justify-content: space-around;
     margin-top: 70px;
 }
-.imagen-g{
 
-}
 .img-g{
     height: 300px;
     width: 300px;
@@ -172,6 +175,15 @@ body{
 }
 .p-g{
     font-size:xx-small;
+}
+
+@media screen and (max-width: 768px) {
+    .imagenes-g{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
 }
 
 
@@ -197,9 +209,8 @@ body{
 .div-map{
     margin-top: 100px;
     display: flex;
+    flex-direction: row;
     align-items: center;
-}
-iframe{
 }
 .mapa-p{
     margin-left: 30px;
@@ -210,6 +221,7 @@ iframe{
 .h2-l{
     text-align: right;
     margin-right: 15px;
+    margin-top: 15px;
 }
 .p-l{
     text-align: right;
@@ -217,7 +229,30 @@ iframe{
     font-family::'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+@media screen and (max-width: 768px) {
+    .img-arroyo{
+        width: 100%;
+        height: 100%;
+    }
+    .div-map{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mapa-p{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .h2-l{
+        text-align: right;
+        margin-right: 0;
+    }
+    .p-l{
+        margin-right: 0;
+    
+}
+}
 
 
 
@@ -244,4 +279,11 @@ form{
 }
 
 
+@media screen and (max-width: 768px) {
+    .img-tarjetas{
+        flex-direction: column;
+        justify-content: center;
+    }
+        
+}
 
