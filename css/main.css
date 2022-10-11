@@ -33,6 +33,10 @@ nav{
     list-style: none;
     text-decoration: none;
 }
+.item:hover{
+    background-color: #4b993c77;
+    border-color: #64bb52;   
+}
 
 
 
@@ -193,6 +197,10 @@ nav{
 .img-g{
     height: 300px;
     width: 300px;
+}
+.img-g:hover{
+    translate: center;
+    transform: scale(2);
 }
 .p-g{
     font-size:xx-small;
