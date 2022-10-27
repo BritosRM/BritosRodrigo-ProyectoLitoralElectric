@@ -114,22 +114,6 @@ body{
     height: 50px;
 }
 
-@media screen and (max-width: 1024px) {
-    .header-main{
-        background-image: none;
-    }
-    .header-main-textos{
-        text-align: center;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    .contenedor-grl-main{
-        flex-direction: column;
-    }
-    
-}
 
 
 
@@ -177,14 +161,6 @@ body{
     font-size:xx-small;
 }
 
-@media screen and (max-width: 768px) {
-    .imagenes-g{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-}
 
 
 /* LOCALIDAD */
@@ -229,30 +205,6 @@ body{
     font-family::'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-    .img-arroyo{
-        width: 100%;
-        height: 100%;
-    }
-    .div-map{
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .mapa-p{
-        margin-left: 0;
-        margin-top: 0;
-    }
-    .h2-l{
-        text-align: right;
-        margin-right: 0;
-    }
-    .p-l{
-        margin-right: 0;
-    
-}
-}
 
 
 
@@ -279,11 +231,64 @@ form{
 }
 
 
-@media screen and (max-width: 768px) {
-    .img-tarjetas{
-        flex-direction: column;
-        justify-content: center;
+/* responsive */
+@media screen and (max-width: 1024px) {
+    /* index */
+    .header-main{
+        background-image: none;
     }
-        
+    .header-main-textos{
+        text-align: center;
+    }
+
 }
 
+@media screen and (max-width: 768px) {
+    /* index */
+    .contenedor-grl-main{
+        flex-direction: column;
+    }
+    
+    /* galeria */
+    .imagenes-g{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* localidad */
+    .img-arroyo{
+        width: 100%;
+        height: 100%;
+    }
+    .div-map{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mapa-p{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .h2-l{
+        text-align: right;
+        margin-right: 0;
+    }
+    .p-l{
+        margin-right: 0;
+    
+}
+.if-m{
+    width: 100%;
+    height: 100%;
+}
+
+/* contacto */
+.img-tarjetas{
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
