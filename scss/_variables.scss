@@ -1,0 +1,21 @@
+$mar-top-50: 50px;
+$padd-15: 15px;
+
+@mixin flex ($direction, $justifi, ) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justifi;
+    align-items: center;
+    padding: $padd-15;
+}
+@mixin border-myv ($b-style, $padd-rl, $fz-myv) {
+    border-style:$b-style;
+    border-width: 5px;
+    border-color:#2756ff;
+    padding: $padd-15 $padd-rl;
+    background-color: #717171;
+    color: #ffffff;
+    font-size: $fz-myv;
+    text-align: center;
+
+}

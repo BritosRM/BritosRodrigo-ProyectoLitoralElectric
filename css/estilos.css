@@ -1,0 +1,125 @@
+body {
+  background-color: rgba(39, 86, 255, 0.0941176471);
+}
+
+.foot-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.boton-subir {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar {
+  background-color: rgba(163, 243, 216, 0.2980392157) !important;
+}
+
+.navbar-toggler:hover {
+  transform: scale(1.2);
+}
+
+/* INDEX */
+.header-main {
+  margin-top: 50px;
+  height: 313px;
+  width: 100%;
+  background-image: url(../img/hotizontal\ dos\ partes.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.header-main-textos {
+  padding-top: 50px;
+  padding-left: 15px;
+  position: center;
+}
+
+.titulo-header {
+  font-family: "Playfair Display", serif;
+  font-size: xx-large;
+}
+
+.parrafo-header {
+  font-family: "Oswald", sans-serif;
+  font-size: small;
+  color: #9f9f9f;
+}
+
+.contenedor-grl-main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  background-color: rgba(250, 235, 215, 0.7019607843);
+}
+
+.cont-h3yp {
+  font-family: "Oswald", sans-serif;
+}
+
+.cont-grl-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: center;
+  padding: 15px;
+}
+
+.cont-2listas {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: center;
+  padding: 15px;
+}
+
+.li-princ {
+  list-style: square;
+  list-style-position: outside;
+}
+
+.liles {
+  list-style-position: inside;
+}
+
+.main-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: center;
+  padding: 15px;
+  margin: 50px 10px 10px 10px;
+}
+
+.myv {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.tit-myv {
+  border-style: inset;
+  border-width: 5px;
+  border-color: #2756ff;
+  padding: 15px 45px;
+  background-color: #717171;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+}
+
+.p-myv {
+  border-style: outset;
+  border-width: 5px;
+  border-color: #2756ff;
+  padding: 15px 150px;
+  background-color: #717171;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

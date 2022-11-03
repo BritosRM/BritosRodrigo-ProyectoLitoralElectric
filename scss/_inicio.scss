@@ -1,0 +1,61 @@
+.header-main{
+    margin-top: $mar-top-50;
+    height: 313px;
+    width: 100%;
+    background-image: url(../img/hotizontal\ dos\ partes.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.header-main-textos{
+    padding-top: $mar-top-50;
+    padding-left: $padd-15;
+    position: center;
+}
+.titulo-header{
+    font-family: 'Playfair Display', serif;
+    font-size:xx-large;
+}
+.parrafo-header{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    color:#9f9f9f;
+}
+
+
+.contenedor-grl-main{
+    margin-top: $mar-top-50;
+    @include flex(row, space-evenly);
+    background-color:#faebd7b3;
+}
+.cont-h3yp{
+    font-family: 'Oswald', sans-serif;
+}
+.cont-grl-list{
+    @include flex(row, none);
+}
+.cont-2listas{
+    @include flex (column, none);    
+}
+.li-princ{
+    list-style: square;
+    list-style-position: outside;
+}
+.liles{
+    list-style-position: inside;
+}
+
+
+.main-boxes{
+    @include flex(column, none);
+    margin: 50px 10px 10px 10px;
+}
+.myv{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.tit-myv{
+    @include border-myv (inset, 45px, 25px);
+}
+.p-myv{
+    @include border-myv (outset, 150px, 15px);
+}

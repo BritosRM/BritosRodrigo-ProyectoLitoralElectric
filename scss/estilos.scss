@@ -1,0 +1,21 @@
+@import "variables";
+
+
+body{
+    background-color: #2756ff18;
+}
+
+.foot-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.boton-subir{
+    width: 50px;
+    height: 50px;
+}
+
+@import "nav";
+/* INDEX */
+@import "inicio";
+
