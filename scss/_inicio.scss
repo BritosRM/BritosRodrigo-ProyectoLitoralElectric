@@ -12,10 +12,12 @@
     position: center;
 }
 .titulo-header{
+    @extend .header-main-textos;
     font-family: 'Playfair Display', serif;
     font-size:xx-large;
 }
 .parrafo-header{
+    @extend .header-main-textos;
     font-family: 'Oswald', sans-serif;
     font-size: small;
     color:#9f9f9f;
@@ -31,10 +33,12 @@
     font-family: 'Oswald', sans-serif;
 }
 .cont-grl-list{
-    @include flex(row, none);
+    @include flex(row, center);
 }
 .cont-2listas{
-    @include flex (column, none);    
+    display: flex;
+    flex-direction: column;
+    padding: $padd-15;
 }
 .li-princ{
     list-style: square;
@@ -47,15 +51,17 @@
 
 .main-boxes{
     @include flex(column, none);
-    margin: 50px 10px 10px 10px;
+    margin: $mar-top-50 $mar-top-50/5 $mar-top-50/5 $mar-top-50/5;
 }
 .myv{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .tit-myv{
+    @extend .myv;
     @include border-myv (inset, 45px, 25px);
 }
 .p-myv{
-    @include border-myv (outset, 150px, 15px);
+    @extend .myv;
+    @include border-myv (outset, 150px, $padd-15);
 }

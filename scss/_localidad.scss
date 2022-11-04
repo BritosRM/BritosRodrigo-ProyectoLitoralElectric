@@ -1,0 +1,28 @@
+.div-img-arr{
+@include flex (column, center)
+}
+.img-arroyo{
+    height: 550px;
+    width: 950px;
+}
+.p-arroyo{
+    position: absolute;
+    padding: $padd-15*2 $padd-15*5;
+    background-color: #a1a1a1de;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mapa-p{
+    margin-left: $padd-15*2;
+    margin-top: $mar-top-50;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+}
+.h2-l{
+    text-align: right;
+    margin: $padd-15 $padd-15 0 0;
+}
+.p-l{
+    text-align: right;
+    margin-right: $mar-top-50;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

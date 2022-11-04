@@ -31,7 +31,7 @@ body {
   background-position: right;
 }
 
-.header-main-textos {
+.header-main-textos, .parrafo-header, .titulo-header {
   padding-top: 50px;
   padding-left: 15px;
   position: center;
@@ -65,7 +65,7 @@ body {
 .cont-grl-list {
   display: flex;
   flex-direction: row;
-  justify-content: none;
+  justify-content: center;
   align-items: center;
   padding: 15px;
 }
@@ -73,8 +73,6 @@ body {
 .cont-2listas {
   display: flex;
   flex-direction: column;
-  justify-content: none;
-  align-items: center;
   padding: 15px;
 }
 
@@ -96,7 +94,7 @@ body {
   margin: 50px 10px 10px 10px;
 }
 
-.myv {
+.myv, .p-myv, .tit-myv {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -120,6 +118,172 @@ body {
   color: #ffffff;
   font-size: 15px;
   text-align: center;
+}
+
+/* SOBRE NOSOTROS */
+.bc-sn {
+  background: linear-gradient(0deg, rgba(39, 86, 255, 0.3003471652) 0%, rgba(163, 243, 216, 0.3003471652) 100%);
+}
+
+.header-sn {
+  text-align: center;
+}
+
+.h1-sn {
+  color: #3051c8;
+  font-style: oblique;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.p-sn {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
+}
+
+.p-sn-c {
+  background-color: rgba(128, 128, 128, 0.4862745098);
+  padding: 15px;
+}
+
+/* GALERIA */
+.imagenes-g {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.img-g {
+  height: 300px;
+  width: 300px;
+}
+.img-g:hover {
+  translate: center;
+  transform: scale(2);
+}
+
+.p-g {
+  font-size: xx-small;
+}
+
+/* LOCALIDAD */
+.div-img-arr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.img-arroyo {
+  height: 550px;
+  width: 950px;
+}
+
+.p-arroyo {
+  position: absolute;
+  padding: 30px 75px;
+  background-color: rgba(161, 161, 161, 0.8705882353);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mapa-p {
+  margin-left: 30px;
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: smaller;
+}
+
+.h2-l {
+  text-align: right;
+  margin: 15px 15px 0 0;
+}
+
+.p-l {
+  text-align: right;
+  margin-right: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* CONTACTO */
+.img-tarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  margin: 50px;
+}
+
+.h2-c {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  margin: 15px 15px 0 0;
+}
+
+form {
+  padding: 15px;
+  margin: 50px;
+}
+
+.mb-3 {
+  width: 40%;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1024px) {
+  /* index */
+  .header-main {
+    background-image: none;
+  }
+  .header-main-textos, .titulo-header, .parrafo-header {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* index */
+  .contenedor-grl-main {
+    flex-direction: column;
+  }
+  /* galeria */
+  .imagenes-g {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* localidad */
+  .img-arroyo {
+    width: 100%;
+    height: 100%;
+  }
+  .div-map {
+    margin-top: 1 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapa-p {
+    margin: 0;
+  }
+  .h2-l {
+    text-align: right;
+    margin: 0;
+  }
+  .p-l {
+    margin: 0;
+  }
+  .if-m {
+    width: 100%;
+    height: 100%;
+  }
+  /* contacto */
+  .img-tarjetas {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

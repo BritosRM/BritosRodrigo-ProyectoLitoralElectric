@@ -1,7 +1,7 @@
 $mar-top-50: 50px;
 $padd-15: 15px;
 
-@mixin flex ($direction, $justifi, ) {
+@mixin flex ($direction, $justifi) {
     display: flex;
     flex-direction: $direction;
     justify-content: $justifi;
@@ -17,5 +17,4 @@ $padd-15: 15px;
     color: #ffffff;
     font-size: $fz-myv;
     text-align: center;
-
 }

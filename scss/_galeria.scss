@@ -1,0 +1,15 @@
+.imagenes-g{
+    @include flex (row, space-around);
+    margin-top: $mar-top-50;
+}
+.img-g{
+    height: 300px;
+    width: 300px;
+        &:hover {
+            translate: center;
+            transform: scale(2);        
+        }
+}
+.p-g{
+    font-size:xx-small;
+}

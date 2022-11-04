@@ -1,0 +1,17 @@
+.img-tarjetas{
+    @include flex(row, space-around);
+    margin: $mar-top-50;
+}
+.h2-c{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    margin: $padd-15 $padd-15 0 0;
+ 
+}
+form{
+    padding: $padd-15;
+    margin: $mar-top-50;
+}
+.mb-3{
+    width: 40%;
+}
