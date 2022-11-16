@@ -51,7 +51,7 @@
 
 .main-boxes{
     @include flex(column, none);
-    margin: $mar-top-50 $mar-top-50/5 $mar-top-50/5 $mar-top-50/5;
+    margin: $mar-top-50 10px 10px 10px;
 }
 .myv{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
